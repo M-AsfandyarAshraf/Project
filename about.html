@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  <title> Day of the WeeK </title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body class="bg">
+
+    <ul class="navi">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+
+
+    <h1>
+        Day of the WeeK
+    </h1>
+
+
+
+    <div class="container">
+
+        <form class="mt-5" action="" style="width: 50%; display:block; margin:0 auto" class="text-center"
+            id="dayofweek">
+            <input type="text" class="form-control" placeholder="Day of the Week" id="day" name="day" required><br>
+            <input type="submit" class="btn-danger"  value="Submit">
+            
+
+        </form>
+
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">The number for the day of the week is....</h4>
+                </div>
+                <div class="modal-body">
+                    <p style="color: black;" id="output"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+        <script src="about.js"></script>
+
+</body>
+
+
+
+
+
+
+</html>
