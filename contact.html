@@ -34,10 +34,13 @@
 
         <form class="mt-5" action="thankyou.html" style="width: 50%; display:block; margin:0 auto" class="text-center">
             <input type="text"  class="form-control" placeholder="Name" id="name" name="name" ><br>
-            <input type="text" class="form-control" id="email" name="name" placeholder="Email" ><br>
-            <span  id="email_error" style="color:red; display:none;  margin-top: 0px;">Invalid Input</span>
+            <span  id="name_error" style="color:red; display:none;  margin-top: 0px;">Please enter a Name</span>
+            <input type="text" class="form-control" id="email" name="email" placeholder="Email" ><br>
+            <span  id="email_error" style="color:red; display:none;  margin-top: 0px;">Invalid Email</span>
             <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" ><br>
+            <span  id="subject_error" style="color:red; display:none;  margin-top: 0px;">Please enter a subject</span>
             <input type="text" class="form-control" id="project" name="project" placeholder="Project Details" ><br>
+            <span  id="project_error" style="color:red; display:none;  margin-top: 0px;">Please enter a project</span>
             <input type="submit" id="submit" class="btn-danger" value="Submit">
             <input type="reset" class="btn-primary"value="Reset">
             <input type="button" class="btn-primary" value="Contact Me">
