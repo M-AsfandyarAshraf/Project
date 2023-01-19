@@ -148,7 +148,7 @@ var fibonacci = (a) => {
             return num;
         }
         else {
-            return fib(num - 1) + fib(num - 2);
+            return (fib(num - 1) + fib(num - 2));
         }
     }
 
@@ -164,6 +164,7 @@ var fibonacci = (a) => {
 // Outputting
 a = [1,2,3,4,5,6,7,8,9];
 b = [4, 5, 6, 7, 8, "wdw"];
+c=8;
 console.log("The Intersection set for the two inputs is " + intersection(a, b));
 console.log("The Union set for the two inputs is " + union(a, b));
 console.log("The odd elements in the input array are: " + isOdd(a));
@@ -173,4 +174,4 @@ console.log("The sum of the elements in the input array is: " + sum(a));
 console.log("The prime elements in the input array are: " + isPrime(a));
 console.log("The square elements in the input array are: " + square(a));
 
-console.log("The first n elements of the fibonacci sequence are: " + fibonacci(a));
+console.log("The first n elements of the fibonacci sequence are: " + fibonacci(c));
