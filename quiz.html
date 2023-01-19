@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: blue;
+            text-align: center;
+
+        }
+
+
+        a:visited {
+            color: red;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        span {
+            text-align: left;
+        }
+
+        table {
+            border: 2px solid black;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+
+        }
+
+        th, td {
+            border: 2px solid black;
+        }
+
+        .register {
+            background-color: antiquewhite;
+            border: 2px none;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+
+
+        }
+
+
+        .register  td, .register  th {
+
+            border: 0px none;
+        }
+
+        #parent {
+            background-color: aqua;
+            border: 2px solid black;
+            max-width: 50%;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+
+        #child {
+            background-color: green;
+            border: 2px solid black;
+            max-width: 50%;
+            height: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+
+        }
+
+
+        #grandchild {
+            background-color: red;
+            border: 1px solid black;
+            max-width: 50%;
+            height: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+
+        }
+
+        ul {
+            list-style-type:square;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+
+    <table class="register">
+        <form action="thankyou.html">
+            <tr>
+                <td><span>First Name </span></td>
+                <td><input type="text"></td> 
+            </tr>
+            <tr>
+                <td><span>First Name </span></td>
+                <td><input type="text"></td> 
+            </tr>
+            <tr>
+                <td><span>First Name </span></td>
+                <td><input type="text"></td> 
+            </tr>
+            <tr>
+                <td><span>e-mail </span></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><span>Password </span></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><span>Date </span></td>
+                <td><input type="date"></td> 
+            </tr>
+            <tr>
+                <td><span>Gender </span></td>
+                <td>
+                    <input type="radio" value="male" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" value="female" name="gender" id="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><span>Mobile</span></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><span>Address </span></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td><input type="submit"><input type="reset"></td>
+            </tr>
+        </form>
+    </table>
+
+
+
+
+
+    <table>
+
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Art</td>
+
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Sports</td>
+
+        </tr>
+        <tr>
+            <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Sports</td>
+
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Sports</td>
+
+        </tr>
+
+    </table>
+
+
+
+
+    <div id="parent">
+
+        <span>Hi! I am a parent box</span>
+        <div id="child">
+
+            <span>Hi! I am a child box</span>
+            <div id="grandchild">
+                <p>Hi! I am a Grand Child Box</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div >
+
+
+        <ul >
+            <li> 1 <del>1/2</del> <u>3/4</u> cups ricotta</li>
+            <li>3/4 cup milk</li>
+            <li>4 eggs</li>
+            <li>1 cup plain <u>white flour</u></li>
+            <li>1 teaspoon baking powder</li>
+            <li><del>75g</del><u>50g</u> baking powder</li>
+            <li>pinch of salt</li>
+        </ul>
+
+    </div>
+
+
+
+</body>
+
+
+
+
+</html>
