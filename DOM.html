@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+
+    Task 1:
+    ●	Here is a sample html file with a submit button. Now modify the style of the paragraph text through javascript code.
+    ●	Clicking on the button the font, font size, and color of the paragraph text will be changed.
+    <!DOCTYPE html> -->
+
+<head>
+<script src="DOM.js"></script>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JS DOM paragraph style</title>
+
+<style type="text/css">
+    body {margin: 30px;}
+    </style>   
+    
+</head> 
+
+
+
+<body>
+<p id ='text'>JavaScript Exercises - w3resource</p> 
+<div>
+<button id="jsstyle"
+onclick="js_style()">Style</button>
+</div>
+
+<!-- 
+
+Task 2:
+●	Write a JavaScript function to get the values of First and Last name of the following form. -->
+
+<form id="form1" onsubmit="getFormvalue()">
+<label for="fname">First Name</label><input type="text" name="fname" placeholder="David"><br>
+<label for="lname">Last Name</label><input type="text" name="lname" placeholder="Beckham"><br>
+<input type="submit" value="Submit">
+</form>
+
+
+
+
+<!-- 
+
+Task 3:
+●	Write a JavaScript program to remove items from a dropdown list. -->
+<form>
+<select id="colorSelect">
+<option>Red</option>
+<option>Green</option>
+<option>White</option>
+<option>Black</option>
+</select>
+<input type="button" onclick="removecolor()" value="Select and Remove">
+</form>
+
+
+
+
+
+<!-- 
+Task 4:
+●	Write a JavaScript program to count and display the items of a dropdown list, in an alert window. -->
+
+<form>
+Select your favorite Color :
+<select id="mySelect">
+<option>Red</option>
+<option>Green</option>
+<option>Blue</option>
+<option>White</option>
+</select>
+<input type="button" onclick="getOptions()" value="Count and Output all items">
+</form>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
